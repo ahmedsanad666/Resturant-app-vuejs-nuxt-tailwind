@@ -1,0 +1,118 @@
+{
+  "welcome": "Welcome to our Restaurant",
+  "menu": "View Menu",
+  "description": "The best flavors in town.",
+  "hero_image_alt": "A delicious platter of gourmet food",
+
+  "global": {
+    "viewCategory": " View Category",
+    "orderNow": "Order now"
+  },
+  "hero": {
+    "title": "Authenticity You Can Taste",
+    "subtitle": "Traditional Urfa flavors served since 1973.",
+    "badge": "ESTABLISHED 1973",
+    "date": "SINCE 1973",
+
+    "subtitle_text": "Experience the authentic taste of Urfa Kebap. Hand-kneaded köfte and perfectly charred meats, served with the same passion for over 50 years.",
+    "cta_primary": "See the Menu",
+    "cta_secondary": "Our Story"
+  },
+
+  "menuHero": {
+    "badge": "Menu",
+    "title": "Our Exclusive Picks",
+    "subtitle": "Each item has been handpicked, blending innovation and tradition to deliver an unforgettable dining experience.",
+    "cta": "Buy Now"
+  },
+
+  "about": {
+    "title": "A Tradition of Taste Since 1973",
+    "description": "For over half a century, Urfa Kebap 26 has been a cornerstone of Eskişehir’s culinary landscape. What started as a family passion in 1973 has evolved into a legacy of flavor, where every kofte and kebab is prepared with time-honored techniques passed down through generations. We don't just serve food; we serve a piece of our heritage, grilled to perfection over natural charcoal."
+  },
+  "menuSection": {
+    "badge": "Our Specialties",
+    "title": "A Taste of Heritage in Every Bite",
+    "subtitle": "Discover the authentic flavors of Urfa, prepared with 50 years of mastery and served with Turkish hospitality.",
+    "items": {
+      "quality": {
+        "title": "Masterfully Grilled",
+        "description": "Premium meats hand-kneaded and slow-cooked over natural charcoal for that signature smoky finish."
+      },
+      "authenticity": {
+        "title": "Traditional Recipes",
+        "description": "Authentic Urfa flavors passed down since 1973, staying true to our roots and regional spices."
+      },
+      "creativity": {
+        "title": "The Art of Flavor",
+        "description": "From 'Zırh' kebabs to handmade pides, we blend tradition with culinary excellence."
+      }
+    },
+    "cta": "Explore the Full Menu"
+  },
+
+  "homeMenu": {
+    "badge": "Our Menu",
+    "title": "Discover Our Categories",
+    "subtitle": "Explore our carefully curated selections — from kebap and pide to desserts and künefe. Tap a category to jump straight to its full menu.",
+    "categories": {
+      "kebapPide": {
+        "badge": "Signature",
+        "title": "Kebap & Pide",
+        "subtitle": "KEBAP · PİDE",
+        "description": "From smoky kebaps to freshly baked pide, this section brings the heart of our grill straight to your table."
+      },
+      "yemekKonfor": {
+        "badge": "Comfort",
+        "title": "Yemek & Konfor",
+        "subtitle": "YEMEK · KONFOR",
+        "description": "Home-style stews and hearty konfor plates that feel like a warm embrace with every bite."
+      },
+      "corbaDoner": {
+        "badge": "Favourites",
+        "title": "Çorba & Döner",
+        "subtitle": "ÇORBA · DÖNER",
+        "description": "Start with a comforting bowl of soup and continue with our juicy döner specialties."
+      },
+      "icecekSalata": {
+        "badge": "Fresh & Light",
+        "title": "İçecek & Salata",
+        "subtitle": "İÇECEK · SALATA",
+        "description": "Refreshing drinks and crisp salads that perfectly balance and complete your meal."
+      },
+      "tatliKunefe": {
+        "badge": "Sweet Endings",
+        "title": "Tatlı & Künefe",
+        "subtitle": "TATLI · KÜNEFE",
+        "description": "Finish on a high note with our rich desserts and perfectly baked künefe."
+      }
+    }
+  },
+
+  "contact": {
+    "address": {
+      "title": "Our Address",
+      "line1": "Ulu Önder Parkı Tepebaşı ESKİŞEHİR",
+      "line2": "Aynalı Kahve Odunpazarı ESKİŞEHİR"
+    },
+    "hours": {
+      "title": "Opening Hours",
+      "weekday": "Weekdays: 08:00 - 22:00",
+      "weekend": "Weekends: 08:00 - 22:00"
+    },
+    "info": {
+      "title": "Contact",
+      "email": "info*aytenusta.com.tr",
+      "phone": "0 222 325 04 44"
+    }
+  },
+  "footer": {
+    "pages":"Pages",
+    "followUs": "Follow Us",
+    "home": "Home",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "description":"It's an art form, a language that communicates across borders, an expression of love and creativity plated to perfection."
+  }
+}

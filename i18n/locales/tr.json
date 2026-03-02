@@ -1,0 +1,115 @@
+{
+  "welcome": "Restoranımıza Hoş Geldiniz",
+  "menu": "Menüyü Görüntüle",
+  "description": "Şehrin en iyi lezzetleri.",
+  "hero_image_alt": "Lezzetli gurme yemek tabağı",
+  "global": {
+    "viewCategory": "Kategory Göster",
+    "orderNow":"sipariş ver"
+  },
+  "hero": {
+    "title": "Nesilden Nesile Aktarılan Gerçek Urfa Lezzeti",
+    "subtitle": "1973'ten beri geleneksel Urfa kebap lezzeti sunuyoruz.",
+    "badge": "1973'TEN GÜNÜMÜZE",
+    "date": "1973'TEN BERİ",
+    "subtitle_text": "Urfa Kebap'ın gerçek tadıyla tanışın. 50 yılı aşkın süredir değişmeyen kalite ve ustalıkla hazırlanan zırh kebapları ve özel köftelerimizle hizmetinizdeyiz.",
+    "cta_primary": "Menüyü İncele",
+    "cta_secondary": "Hikayemiz"
+  },
+
+  "menuHero": {
+    "badge": "Menü",
+    "title": "Şefin Özel Seçkileri",
+    "subtitle": "Her tabak, geleneksel Urfa lezzetini yenilikçi dokunuşlarla birleştiren özenle seçilmiş lezzetlerden oluşur.",
+    "cta": "Şimdi Sipariş Ver"
+  },
+  "about": {
+    "title": "1973'ten Günümüze Uzanan Lezzet Geleneği",
+    "description": "Yarım asrı aşkın süredir, Urfa Kebap 26 Eskişehir'in lezzet haritasında sarsılmaz bir yer tutuyor. 1973 yılında bir aile tutkusu olarak başlayan yolculuğumuz, nesilden nesile aktarılan ustalıkla bir lezzet mirasına dönüştü. Sadece yemek sunmuyoruz; doğal kömür ateşinde mükemmelleşen ve köklü geçmişimizi yansıtan gerçek Urfa lezzetlerini sofranıza taşıyoruz."
+  },
+  "menuSection": {
+    "badge": "Öne Çıkan Lezzetler",
+    "title": "Her Lokmada Bir Gelenek",
+    "subtitle": "50 yıllık ustalıkla hazırlanan ve Türk misafirperverliğiyle sunulan gerçek Urfa lezzetlerini keşfedin.",
+    "items": {
+      "quality": {
+        "title": "Köz Ateşinde Ustalık",
+        "description": "Doğal kömür ateşinde ağır ağır pişen, el emeği ile yoğrulmuş en kaliteli etler."
+      },
+      "authenticity": {
+        "title": "Geleneksel Tarifler",
+        "description": "1973'ten bu yana köklerimize ve yöresel baharatlarımıza sadık kalarak hazırlanan özgün lezzetler."
+      },
+      "creativity": {
+        "title": "Lezzetin Sanatı",
+        "description": "Zırh kebaplarından el açması pidelere, geleneği mutfak ustalığıyla harmanlıyoruz."
+      }
+    },
+    "cta": "Tüm Menüyü İncele"
+  },
+
+  "homeMenu": {
+    "badge": "Menümüz",
+    "title": "Lezzet Kategorilerimizi Keşfedin",
+    "subtitle": "Kebap ve pideden tatlı ve künefeye uzanan özenle hazırlanmış menümüzü keşfedin. Bir kategoriye tıklayarak doğrudan ilgili menü bölümüne gidebilirsiniz.",
+    "categories": {
+      "kebapPide": {
+        "badge": "İmza Lezzetler",
+        "title": "Kebap & Pide",
+        "subtitle": "KEBAP · PİDE",
+        "description": "Dumansı köz tadıyla hazırlanan kebaplar ve fırından yeni çıkmış pidelerle mangalın kalbini sofranıza getiriyoruz."
+      },
+      "yemekKonfor": {
+        "badge": "Ev Lezzetleri",
+        "title": "Yemek & Konfor",
+        "subtitle": "YEMEK · KONFOR",
+        "description": "Ev yemeği sıcaklığında sulu yemekler ve doyurucu konfor tabaklarıyla her lokmada samimiyet sunuyoruz."
+      },
+      "corbaDoner": {
+        "badge": "Klasiklerin Favorisi",
+        "title": "Çorba & Döner",
+        "subtitle": "ÇORBA · DÖNER",
+        "description": "Günü nefis bir çorbayla başlatın, ardından odun ateşinde pişmiş döner lezzetlerimizle devam edin."
+      },
+      "icecekSalata": {
+        "badge": "Taze & Hafif",
+        "title": "İçecek & Salata",
+        "subtitle": "İÇECEK · SALATA",
+        "description": "Serinletici içecekler ve taptaze salatalarla menünüzü dengeli ve ferah bir dokunuşla tamamlayın."
+      },
+      "tatliKunefe": {
+        "badge": "Tatlı Final",
+        "title": "Tatlı & Künefe",
+        "subtitle": "TATLI · KÜNEFE",
+        "description": "Zengin şerbetli tatlılar ve çıtır künefelerle yemeğinizi unutulmaz bir finalle taçlandırın."
+      }
+    }
+  },
+
+  "contact": {
+    "address": {
+      "title": "Adresimiz",
+      "line1": "Ulu Önder Parkı Tepebaşı ESKİŞEHİR",
+      "line2": "Aynalı Kahve Odunpazarı ESKİŞEHİR"
+    },
+    "hours": {
+      "title": "Çalışma Saatlerimiz",
+      "weekday": "Hafta İçi: 08:00 - 22:00",
+      "weekend": "Hafta Sonu: 08:00 - 22:00"
+    },
+    "info": {
+      "title": "İletişim",
+      "email": "info*aytenusta.com.tr",
+      "phone": "0 222 325 04 44"
+    }
+  },
+  "footer": {
+    "pages":"Sayfalar",
+    "followUs": "Bizi Takip Edin",
+    "home": "Ana Sayfa",
+    "menu": "Menü",
+    "gallery": "Galeri",
+    "contact": "İletişim",
+    "description":"Bu bir sanat formu, sınırları aşan bir dil; sevginin ve yaratıcılığın tabağa kusursuzca yansıtılmış halidir."
+  }
+}
