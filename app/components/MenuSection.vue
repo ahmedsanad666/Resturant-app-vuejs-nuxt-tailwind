@@ -24,8 +24,10 @@
           <div
             class="relative mx-auto h-50 w-50 overflow-hidden rounded-full bg-[#e7e7e7] shadow-[0_20px_60px_rgba(15,23,42,0.18)]"
           >
-            <img
-              src="assets/images/menu/home1.png"
+            <NuxtImg
+              format="webp"
+              quality="80"
+              src="/images/menu/home1.png"
               alt="Kebap plate"
               class="h-full w-full object-cover"
             />
@@ -65,8 +67,10 @@
           <div
             class="relative mx-auto h-50 w-50 overflow-hidden rounded-full bg-[#e7e7e7] shadow-[0_20px_60px_rgba(15,23,42,0.18)]"
           >
-            <img
-              src="assets/images/menu/home2.png"
+            <NuxtImg
+              format="webp"
+              quality="80"
+              src="/images/menu/home2.png"
               alt="Authentic Urfa flavors"
               class="h-full w-full object-cover"
             />
@@ -78,8 +82,10 @@
           <div
             class="relative mx-auto h-50 w-50 overflow-hidden rounded-full bg-brand-light shadow-[0_20px_60px_rgba(15,23,42,0.18)]"
           >
-            <img
-              src="assets/images/menu/home3.png"
+            <NuxtImg
+              format="webp"
+              quality="80"
+              src="/images/menu/home3.png"
               alt="Creative specials"
               class="h-full w-full object-cover"
             />

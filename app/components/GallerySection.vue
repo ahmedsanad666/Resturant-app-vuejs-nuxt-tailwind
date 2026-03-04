@@ -14,7 +14,9 @@
             class="group block h-full w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary"
             @click="openLightbox(index)"
           >
-            <img
+            <NuxtImg
+              format="webp"
+              quality="80"
               :src="image.src"
               :alt="image.alt"
               class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -54,7 +56,9 @@
         </button>
 
         <div class="max-w-4xl w-full">
-          <img
+          <NuxtImg
+            format="webp"
+            quality="80"
             :src="currentImage.src"
             :alt="currentImage.alt"
             class="mx-auto max-h-[80vh] w-full rounded-2xl object-contain shadow-2xl"
@@ -68,19 +72,19 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 
-import home1 from "~/assets/images/menu/home1.png";
-import home2 from "~/assets/images/menu/home3.png";
-import yemek from "~/assets/images/menu/yemek.webp";
-import konfor from "~/assets/images/menu/konfor.webp";
-import corba from "~/assets/images/menu/çorba.jpg";
-import doner from "~/assets/images/menu/doner.avif";
-import icecek from "~/assets/images/menu/icecek.jpg";
-import salata from "~/assets/images/menu/salata.jpg";
-import tatlı from "~/assets/images/menu/tatlı.jpg";
-import künefe from "~/assets/images/menu/künefe.jpg";
-import kebap from "~/assets/images/gallery/kebap.jpg";
-import pide from "~/assets/images/gallery/pide.jpg";
-import tavuksac from "~/assets/images/gallery/tavuksac.jpg";
+import home1 from "/images/menu/home1.png";
+import home2 from "/images/menu/home3.png";
+import yemek from "/images/menu/yemek.webp";
+import konfor from "/images/menu/konfor.webp";
+import corba from "/images/menu/çorba.jpg";
+import doner from "/images/menu/doner.avif";
+import icecek from "/images/menu/icecek.jpg";
+import salata from "/images/menu/salata.jpg";
+import tatlı from "/images/menu/tatlı.jpg";
+import künefe from "/images/menu/künefe.jpg";
+import kebap from "/images/gallery/kebap.jpg";
+import pide from "/images/gallery/pide.jpg";
+import tavuksac from "/images/gallery/tavukSac.jpg";
 
 interface GalleryImage {
   src: string;

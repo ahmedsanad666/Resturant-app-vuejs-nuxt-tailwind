@@ -1,11 +1,26 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // "public": ".output/public",
+
+
+  ssr: false,
+  
+  // Add this to force asset generation
+  nitro: {
+    preset: "static", // Explicit static generation
+    prerender: {
+      crawlLinks: true, // Allow Nuxt to find your images automatically
+      routes: ['/']    // Start at the home page
+    },
+  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/ui',
     '@nuxtjs/i18n',
     '@nuxt/image'
   ],
+
+  
 
   devtools: {
     enabled: true
@@ -25,6 +40,7 @@ i18n: {
 
 // Image Configuration
 image: {
+  provider: 'none' ,
   // Add domains here if you fetch images from external sites (Unsplash, etc.)
   domains: ['images.unsplash.com'] 
 },

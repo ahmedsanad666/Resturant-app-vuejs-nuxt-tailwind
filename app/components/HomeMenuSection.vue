@@ -25,7 +25,9 @@
           class="group block overflow-hidden rounded-[32px] bg-white shadow-[0_20px_60px_rgba(15,23,42,0.16)] transition-transform hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary"
         >
           <div class="relative h-56 w-full overflow-hidden">
-            <img
+            <NuxtImg
+              format="webp"
+              quality="80"
               :src="category.image"
               :alt="category.title"
               class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -67,11 +69,11 @@
 </template>
 
 <script setup lang="ts">
-import kebap from "~/assets/images/gallery/kebap.jpg";
-import yemek from "~/assets/images/menu/yemek.webp";
-import corba from "~/assets/images/menu/çorba.jpg";
-import salata from "~/assets/images/menu/salata.jpg";
-import tatlı from "~/assets/images/menu/tatlı.jpg";
+import kebap from "/images/gallery/kebap.jpg";
+import yemek from "/images/menu/yemek.webp";
+import corba from "/images/menu/çorba.jpg";
+import salata from "/images/menu/salata.jpg";
+import tatlı from "/images/menu/tatlı.jpg";
 
 interface HomeMenuCategory {
   id: string;

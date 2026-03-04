@@ -18,19 +18,19 @@
 </template>
 
 <script setup lang="ts">
-import home1 from "~/assets/images/gallery/kebap.jpg";
-import home2 from "~/assets/images/gallery/pide.jpg";
-import yemek from "~/assets/images/menu/yemek.webp";
-import konfor from "~/assets/images/menu/konfor.webp";
+import home1 from "/images/gallery/kebap.jpg";
+import home2 from "/images/gallery/pide.jpg";
+import yemek from "/images/menu/yemek.webp";
+import konfor from "/images/menu/konfor.webp";
 // --
-import corba from "~/assets/images/menu/çorba.jpg";
-import doner from "~/assets/images/menu/doner.avif";
+import corba from "/images/menu/çorba.jpg";
+import doner from "/images/menu/doner.avif";
 // --
-import icecek from "~/assets/images/menu/icecek.jpg";
-import salata from "~/assets/images/menu/salata.jpg";
+import icecek from "/images/menu/icecek.jpg";
+import salata from "/images/menu/salata.jpg";
 // --
-import tatlı from "~/assets/images/menu/tatlı.jpg";
-import künefe from "~/assets/images/menu/künefe.jpg";
+import tatlı from "/images/menu/tatlı.jpg";
+import künefe from "/images/menu/künefe.jpg";
 
 const menuList = [
   {

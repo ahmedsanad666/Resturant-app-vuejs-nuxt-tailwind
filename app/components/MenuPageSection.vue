@@ -27,9 +27,11 @@
             <div
               class=" md:mt-[-210px] mb-10 md:h-[380px] md:w-[380px] h-50 w-50 overflow-hidden rounded-full border-4 border-brand-light bg-brand-light shadow-[0_20px_60px_rgba(0,0,0,0.45)] sm:block"
             >
-              <img
+              <NuxtImg
                 :src="leftSection.image"
                 :alt="leftSection.title"
+                format="webp"
+                quality="80"
                 class="h-full w-full object-cover"
               />
             </div>
@@ -86,9 +88,11 @@
             <div
               class="  mx-auto md:h-[380px]  h-50 md:w-[380px]  w-50 overflow-hidden rounded-full border-4 border-brand-light bg-brand-light shadow-[0_20px_60px_rgba(0,0,0,0.45)] sm:block"
             >
-              <img
+              <NuxtImg
                 :src="rightSection.image"
                 :alt="rightSection.title"
+                format="webp"
+                quality="80"
                 class="h-full w-full object-cover"
               />
             </div>

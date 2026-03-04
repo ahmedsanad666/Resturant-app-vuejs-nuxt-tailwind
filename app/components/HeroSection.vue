@@ -4,8 +4,10 @@
     class="relative overflow-hidden bg-brand-dark pt-28 text-white"
   >
     <div class="absolute bottom-[-100px] left-[-100px] z-0">
-      <img
-        src="assets/images/heroImages/bgImg.png"
+      <NuxtImg
+        format="webp"
+        quality="80"
+        src="/images/heroImages/bgImg.png"
         alt="banner"
         class="w-100 h-100 object-cover"
       />
@@ -67,8 +69,10 @@
         <div
           class="relative md:w-1/2 max-sm:h-[250px] h-full overflow-hidden rounded-[32px] max-sm:rounded-xl bg-neutral-900 shadow-[0_30px_80px_rgba(0,0,0,0.7)]"
         >
-          <img
-            src="assets/images/heroImages/hero_1.jpg"
+          <NuxtImg
+            format="webp"
+            quality="80"
+            src="/images/heroImages/hero_1.jpg"
             alt="Signature dish"
             class="h-full w-full object-cover"
           />
@@ -78,8 +82,10 @@
         <div
           class="relative lg:absolute max-sm:h-[250px] lg:right-[-10%] lg:top-[-50%] h-full md:w-1/2 overflow-hidden rounded-[32px] max-sm:rounded-xl bg-neutral-900 shadow-[0_30px_80px_rgba(0,0,0,0.7)]"
         >
-          <img
-            src="assets/images/heroImages/hero_2.jpg"
+          <NuxtImg
+            format="webp"
+            quality="80"
+            src="/images/heroImages/hero_2.jpg"
             alt="Grilled kebab plate"
             class="h-full w-full object-cover"
           />
@@ -100,6 +106,6 @@
 
 <style scoped lang="scss">
 .banner {
-  background-image: url("assets/images/heroImages/bgImg.png");
+  background-image: url("/images/heroImages/bgImg.png");
 }
 </style>

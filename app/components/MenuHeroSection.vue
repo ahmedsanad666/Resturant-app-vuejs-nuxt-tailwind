@@ -33,8 +33,10 @@
       <!-- Image -->
       <div class="relative w-full lg:flex-1">
         <div class="relative h-64 w-full lg:h-80">
-          <img
-            src="assets/images/menu/home1.png"
+          <NuxtImg
+            format="webp"
+            quality="80"
+            src="/images/menu/home1.png"
             alt="Featured dish"
             class="heroImg absolute lg:h-[984px] lg:right-[-52%] lg:bottom-[-152%] w-auto max-w-none rounded-[999px] object-cover"
           />

@@ -16,8 +16,10 @@
             class="relative overflow-hidden rounded-3xl bg-white p-3 shadow-[0_20px_70px_rgba(15,23,42,0.20)]"
           >
             <div class="overflow-hidden rounded-2xl">
-              <img
-                src="assets/images/about/about.jpg"
+              <NuxtImg
+                format="webp"
+                quality="80"
+                src="/images/about/about.jpg"
                 alt="Urfa Kebap 26 restaurant front"
                 class="h-full w-full object-cover"
               />
